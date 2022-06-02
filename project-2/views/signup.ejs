@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid black;
+      margin: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
+      box-shadow: 10px 5px 5px red;
+    }
+
+    div form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    button {
+      margin-top: 5%;
+    }
+
+    input:hover {
+      border: 1px solid forestgreen;
+    }   
+
+    button:hover {
+      border: 2px solid red;
+    }
+
+   
+
+    
+
+  </style>
+
+</head>
+<body>
+  <div>
+    
+    <h2>Create An Account Today</h2>
+  
+    <p>One account for everything</p>
+  
+    <form action="/signupform" method="post">
+      <label for="">Email</label>
+      <input type="text" name="email">
+      <label for="">Password</label>
+      <input type="password" name="password">
+      <label for="">Baby Name</label>
+      <input type="text" name="baby_name">
+      <button>Create Account</button>
+  
+      <p>By clicking submit,you agree and have read our term and conditions</p>
+    </form>
+  </div>
+
+</body>
+</html>

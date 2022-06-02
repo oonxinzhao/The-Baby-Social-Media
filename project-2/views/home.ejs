@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    
+
+    h1 {
+      background-color: antiquewhite;
+      font-size: 30px;
+      color: chocolate;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    .main {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-around;
+      margin: 10%;
+    }
+
+    img {
+      width: 40%;
+      box-shadow: 10px 10px 5px lightblue;
+    }
+
+    .login-part form {
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .login-part {
+      border: 1px solid black;
+      padding: 20px;
+      box-shadow: 10px 10px;
+    }
+
+    button,a {
+      margin-top: 20%;
+    }
+
+    
+
+  </style>
+
+</head>
+
+<body>
+  
+  <h1>Record your baby daily life with us today</h1>
+
+
+  <div class="main">
+    <div class="images">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ05vWGtXlQHOnX5-3oGkFDpgp51YzMM_rRvw&usqp=CAU" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLtwOFklvp7npW5bkTZYigKh8DfJXXi-NSQ&usqp=CAU" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxymcEwLdB0rRi9fGXPohQ7_nC4whR52GtrA&usqp=CAU" alt="">
+    </div>
+  
+    <div class="login-part">
+      <form action="/login" method="post">
+        <label for="">Email</label>
+        <input type="text" name="email">
+        <label for="">Password</label>
+        <input type="password" name="password">
+        
+        <button>login now</button>
+        <a href="/signup">Sign up</a>
+        <a href="">Forgot Password</a>
+      </form>
+    </div>
+  </div>
+
+  <footer>&copy; 2022 OXZ </footer>
+  
+</body>
+
+</html>

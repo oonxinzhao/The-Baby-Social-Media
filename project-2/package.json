@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "project-2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "xin zhao",
+  "license": "ISC",
+  "description": ""
+}
